@@ -1,0 +1,8 @@
+path: data/kitti/yolo  # train/val/images, labels 구조
+train: images/train
+val: images/val
+
+names:
+  0: Car
+  1: Pedestrian
+  2: Cyclist
