@@ -13,6 +13,7 @@ torch = "^2.9.1"
 torchvision = "^0.24.1"
 opencv-python = "^4.12.0.88"
 ffmpeg = "^1.4"
+ultralytics = "^8.3.234"
 
 [tool.poetry]
 packages = [{ include = "3d-perception" }]

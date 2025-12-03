@@ -1,4 +1,4 @@
-path: data/kitti/yolo  # train/val/images, labels 구조
+path: /Users/dana/PycharmProjects/3d-perception/data/kitti/yolo  # 절대경로
 train: images/train
 val: images/val
 
