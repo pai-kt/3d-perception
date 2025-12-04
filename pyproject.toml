@@ -1,0 +1,25 @@
+[project]
+name = "3d-perception"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "seogeuntae",email = "seogt0606@gmail.com"}
+]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.15"
+torch = "^2.9.1"
+torchvision = "^0.24.1"
+opencv-python = "^4.12.0.88"
+ffmpeg = "^1.4"
+ultralytics = "^8.3.234"
+scipy = "^1.16.3"
+numpy = ">=2,<2.3"
+
+[tool.poetry]
+packages = [{ include = "src" }, { include = "scripts" }]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

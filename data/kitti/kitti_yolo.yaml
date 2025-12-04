@@ -1,0 +1,8 @@
+path: /Users/dana/PycharmProjects/3d-perception/data/kitti/yolo  # 절대경로
+train: images/train
+val: images/val
+
+names:
+  0: Car
+  1: Pedestrian
+  2: Cyclist
